@@ -1,0 +1,27 @@
+.container{
+    display: flex ;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.card{
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+    position: relative;
+
+     
+}
+.heading{
+
+       border:1px solid;
+      padding: 0;
+      margin:0;
+       position: absolute;
+       top:50%;
+       left:50%;
+       transform: translate(-50%,-50%);
+       padding-left: 1rem;
+       padding-right: 1rem;
+
+      
+}
