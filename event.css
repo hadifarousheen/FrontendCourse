@@ -1,0 +1,24 @@
+.grandParent{
+    height: 500px;
+    width: 500px;
+    background-color: yellow;
+    position:relative;
+}
+.parent{
+    height: 300px;
+    width:300px;
+    background-color: green;
+    position:absolute;
+   top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+      position:absolute;
+   top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
