@@ -1,4 +1,4 @@
-// Inheritance is liek one object trying to access methods and properties of another object
+// Inheritance is like one object trying to access methods and properties of another object
 
 let arr=["Hadifa","Rousheen"];
 
@@ -13,7 +13,7 @@ let obj={
 // function fun(){}
 
 // when JS object is created , Js Engine automatically attaches the object with hidden properties and functions.
-// not only objects , it also happens with functions ,arrs,variables etc
+// not only objects , it also happens with functions ,arrays,variables etc
 
 // console.log(arr.__proto__.__proto__)
 // console.log(Array.prototype)

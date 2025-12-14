@@ -1,4 +1,5 @@
 // the only difference between call and apply is that the way we pass arguments
+// In the apply method we have to pass the arguments in the form of an array.In call method we just pass the multiple arguments by using a comma ,
 
 let name={
     firstName:"Hadifa",

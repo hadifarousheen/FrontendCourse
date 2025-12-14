@@ -1,3 +1,4 @@
+// Polyfill for the bind method.
 // sort of browser fallback function
 // our own implementation of bind function
 
@@ -7,6 +8,13 @@ let name={
 }
 let printFullName=function(homeTown,state){
     console.log(this.firstName+" "+this.lastName+" from "+homeTown+" , "+state)
+}
+
+Function.prototype.mybind=function(...args){
+    let obj=this;
+    return function(){
+        obj.call(args[0])
+    }
 }
 Function.prototype.mybind=function(...args){
     let obj=this;
